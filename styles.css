@@ -1,4 +1,15 @@
 h1 {
     color: red;
     background-color: blue;
+    background-image: url("./police.jpg");
+    height: 300px;
+}
+
+body {
+    background-image: url('./policecar.jpeg')
+}
+
+input {
+    height: 100px;
+    width: 400px;
 }
