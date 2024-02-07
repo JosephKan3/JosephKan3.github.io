@@ -80,6 +80,7 @@ section {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  max-height: 44rem;
 }
 
 .card-title {
@@ -94,6 +95,9 @@ section {
 .card img {
   width: 100%;
   object-fit: cover;
+  height: 16rem;
+  overflow: hidden;
+  display: block;
 }
 
 .card-info {
