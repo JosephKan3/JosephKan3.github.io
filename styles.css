@@ -1,5 +1,8 @@
-body {
+html {
   font-family: Arial, sans-serif;
+}
+
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -21,8 +24,7 @@ header {
 }
 
 section {
-  padding-right: 5rem;
-  padding-left: 5rem;
+  padding: 5rem;
 }
 
 .introduction-section {
@@ -68,7 +70,7 @@ section {
 
 .card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px 0;
 }
@@ -95,7 +97,7 @@ section {
 .card img {
   width: 100%;
   object-fit: cover;
-  height: 16rem;
+  height: 20rem;
   overflow: hidden;
   display: block;
 }
@@ -138,14 +140,13 @@ p.small-card-text {
 .card-description {
   font-size: 18px;
   line-height: 18px;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
   color: #666;
+  height: 36px;
 }
 
 .key-challenges {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .key-title {
@@ -156,7 +157,7 @@ p.small-card-text {
 .challenge-list {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
-  padding-left: 2rem;
+  padding-left: 1.5rem;
 }
 
 .cash-money {
