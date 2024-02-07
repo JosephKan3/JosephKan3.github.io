@@ -1,35 +1,175 @@
-<!-- <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>RBC.ca</title>
-    <link href="./styles.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <h1>RBC SCAM PROTECTION SERVICE</h1>
-    <input type="text" placeholder="Enter Username here:"></input>
-    <input type="text" placeholder="Enter Password here:"></input>
-    <input type="submit"></input>
-    <image src="./siren.jpg" style="height:100px; display: block;"></image>
-    <image src="./siren.jpg" style="height:100px; display: block;"></image>
-    <image src="./siren.jpg" style="height:100px; display: block;"></image>
-    <image src="./siren.jpg" style="height:100px; display: block;"></image>
-    <image src="./siren.jpg" style="height:100px; display: block;"></image>
-  </body>
-</html>
- -->
 <!DOCTYPE html>
-<html lang=en>
-    <header>
-        <meta charset="UTF-8">
-        <title>Testing</title>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joseph Kan</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-    </header>
-    <body>
-        <form action="mailto:you@yourdmainhere.com" method="post" enctype="text/plain" >
-            FirstName:<input type="text" name="FirstName">
-            Email:<input type="text" name="Email">
-            <input type="submit" name="submit" value="Submit">
-        </form>
-    </body>
+  <body>
+    <nav>
+      <div class="navbar">
+        <a
+          href="https://github.com/yourusername"
+          target="https://github.com/JosephKan3/"
+          >GitHub</a
+        >
+        <a
+          href="https://www.linkedin.com/in/joseph-kan-21116b193/"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </div>
+    </nav>
+
+    <section class="introduction-section">
+      <header>
+        <div class="content-body">
+          <div class="profile-image">
+            <img src="./headshot.jpg" alt="Joseph Kan Picture" />
+          </div>
+          <div class="introduction">
+            <h1>Hello, I'm Joseph!</h1>
+            <p>
+              I'm a business and computer science student at the Ivey Business
+              School, interested in software development and global macro
+              trading strategies.<br /><br />
+              I've previously interned at Hawkbridge Capital Partners as an
+              investment banking analyst. I also worked at Moongate and Fourth
+              Dimension as a software developer!<br /><br />
+              Outside of work, I enjoy going on long walks, dancing, and
+              competitive debate.<br /><br />
+              If you would like to chat, please reach out to me on
+              <a href="https://www.linkedin.com/in/joseph-kan-21116b193/"
+                >LinkedIn</a
+              >
+              or at
+              <a href="mailto:josephkan3@gmail.com">josephkan3@gmail.com</a>.
+              Feel free to browse my portfolio below!
+            </p>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <section class="portfolio">
+      <h2>My Project Portfolio</h2>
+      <div class="card-container">
+        <!-- Spotitube -->
+        <div class="card">
+          <img src="./portfolioImages/spotitube.jpg" alt="Spotitube" />
+          <div class="card-info">
+            <div class="card-content">
+              <div class="card-title">
+                <h3 class="project-name">Spotitube</h3>
+                <span class="notice">Server Currently Offline</span>
+              </div>
+              <p class="card-description">
+                Youtube to Spotify Playlist Converter
+              </p>
+              <!-- Key Challenges Section -->
+              <div class="key-challenges">
+                <h4 class="key-title">Motivation</h4>
+                <p class="small-card-text">
+                  I wanted to create a tool to help me migrate my Youtube
+                  playlists from the first 15 years of my life to Spotify: a
+                  task that would've taken forever
+                </p>
+                <h4 class="key-title">Key Challenges</h4>
+                <ul class="challenge-list small-card-text">
+                  <li>Implementing OAuth for Spotify and Youtube</li>
+                  <li>
+                    Optimizing algorithm for matching Youtube titles against
+                    Spotify track names
+                  </li>
+                  <li>
+                    Creating a reactive UI to ease modification of playlists
+                    with hundreds of songs
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- GitHub Link Section -->
+            <div class="github-icon">
+              <a href="https://github.com/JosephKan3/spotitube" target="_blank">
+                <svg
+                  height="32"
+                  width="32"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Spotitube -->
+        <div class="card">
+          <img src="./portfolioImages/spotitube.jpg" alt="Spotitube" />
+          <div class="card-info">
+            <div class="card-content">
+              <div class="card-title">
+                <h3 class="project-name">Spotitube</h3>
+                <span class="notice">Server Currently Offline</span>
+              </div>
+              <p class="card-description">
+                Youtube to Spotify Playlist Converter
+              </p>
+              <!-- Key Challenges Section -->
+              <div class="key-challenges">
+                <h4 class="key-title">Motivation</h4>
+                <p class="small-card-text">
+                  I wanted to create a tool to help me migrate my Youtube
+                  playlists from the first 15 years of my life to Spotify: a
+                  task that would've taken forever
+                </p>
+                <h4 class="key-title">Key Challenges</h4>
+                <ul class="challenge-list small-card-text">
+                  <li>Implementing OAuth for Spotify and Youtube</li>
+                  <li>
+                    Optimizing algorithm for matching Youtube titles against
+                    Spotify track names
+                  </li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+            <!-- GitHub Link Section -->
+            <div class="github-icon">
+              <a href="https://github.com/JosephKan3/spotitube" target="_blank">
+                <svg
+                  height="32"
+                  width="32"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>My Investment Portfolio</h2>
+      <p>
+        I trade a variety of currencies, commodities, and bonds, focusing on
+        global macro themes. If you have an interesting trade idea, hit me up!
+        I'm happy to hear your thoughts!<br /><br />
+        <span class="bold"
+          >Annualized Return: <span class="cash-money">79.5%</span></span
+        >
+      </p>
+    </section>
+  </body>
 </html>
