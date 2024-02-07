@@ -28,10 +28,13 @@ section {
 }
 
 .introduction-section {
-  background-color: #f5f5f5;
+  background-color: #ababab;
   font-size: 18px;
   line-height: 32px;
-  margin-bottom: 8px;
+}
+
+.portfolio-section {
+  background-color: #fafafa;
 }
 
 .content-body {
@@ -53,15 +56,11 @@ section {
 }
 
 .introduction h1 {
-  color: #333;
   margin-bottom: 1rem;
 }
 
 .introduction p {
-  color: #666;
-}
-
-.portfolio {
+  color: #000000;
 }
 
 .portfolio h2 {
